@@ -1,10 +1,5 @@
 # About 
-This is a web app that allows speedcubers to practice (Speecubing refers to the practice of solving Rubik's cubes as fast as possible). It was created as an extension of my CPSC 210 term project, where additional details can be found on my Learning-Java repository, such as the user stories. The primary features of this app are: 
-- The ability to create and register new users
-- The ability for each user to create new practice sessions
-- The ability for each user to add solves to their practice sessions, with each solve represented by a scramble and a solve time
-- The ability to have your solve splits diagnosed: This means that you record the time it takes you to do each step of solving the cube (Assuming you use the standard CFOP method), and app will identify your areas of improvement based on which spits are taking longer than optimal, referencing your total time (Denoting your overal skill level)
-- The ability for you to receive a practice schedule based on your areas of improvement (By taking the times you are free to practice and what skills you want to incorporate into your practice beyond standard solves, the app procures a custom practice schedule)
+I took my UBC CPSC 210 term project, and vibe coded a project out of it, solely out of curiosity. The original project is a productivity app, tailored to the niche hobby of speedcubing, with features similar to csTimer (https://cstimer.net/2015.12.12/) 
 
 ## Notes
 - The model and persistence packages are taken directly from my term project.
