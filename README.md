@@ -5,7 +5,7 @@ I took my UBC CPSC 210 term project, and vibe coded a project out of it, solely 
 - The model and persistence packages are taken directly from my term project.
 - The rest was created using AI-assisted development. This projecet uses Spring Boot for the backend and React with Vite for the frontend. As of this commit, I am currently learning React with Vite in my spare time, though I have been busy in university.
 - In the original term project, the custom practice schedule feature used math to divide the total time available by the number of skills to work on, then distributed those times across each day of the week. I found that this was quite a crude method, and decided that for this project, I would replace it with an API call to Gemini. As a result, the practice times are more structured and include variation (Meaning that you cycle through your areas of improvement rather than only working one skill for a few days, then moving on to the next)
-- A MAJOR seucrity concern is that the API keys were included here. Going forward I will make sure to set them as an enviroment variable. 
+- I am aware that there are several major security concerns with this project, such as the fact that passwords and user data is not hashed / encrypted at all. 
 
 ## Setup Instructions 
 This app has not yet been deployed. To run locally, download the repository, and then:
